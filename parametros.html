@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paraâmetros</title>
+</head>
+<body>
+    <script>
+        // function mostrarMensagem(batatinha, moranguinho){
+
+        //     alert(batatinha + " : " + moranguinho)
+
+
+
+
+        // }
+
+        // mostrarMensagem("João", "Maria")
+        
+        // function soma(a, b){
+        //     return a + b
+        // }
+
+        // let resultado = soma(2,2)
+
+        // alert(resultado);
+
+
+
+        function checarIdade(idade){
+            if(idade >= 18){
+                return true;
+            }else{
+                return confirm("Seus Paise sabem que voce esta aqui?")
+            }
+        }
+        let idade = prompt("Quantos anos voce tem?")
+
+        if(checarIdade(idade)){
+            alert("Acesso Permitido")
+        }else{
+            alert("Acesso Negado")
+        }
+    </script>
+    
+</body>
+</html>
