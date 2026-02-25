@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Soma</title>
+</head>
+<body>
+
+    <button id="botaoEnviar">Somar</button>
+
+    <script>
+        let button = document.getElementById("botaoEnviar").addEventListener("click",function(){
+            somaNumeros();
+        });
+        function somaNumeros(){
+            
+            let n1 = prompt("Digite o Primeiro")
+            let n2 = prompt("Digite o Segundo Numero")
+            // Converter numeros
+            let soma = Number(n1) + Number(n2)
+            document.write("O Resultado da sua soma é: " + soma)
+        }
+
+        addEventListener()
+
+        
+    </script>
+    
+</body>
+</html>
